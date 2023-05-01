@@ -69,7 +69,8 @@ After installing [sol2uml](https://github.com/naddison36/sol2uml) execute the fo
 sol2uml storage ./src -c Store
 ```
 
-[](./assets/originalStore.svg)
+![](assets/originalStore.svg?raw=true)
+
 Img.1
 
 After running Ganache we verify deployment by using the following command
@@ -78,7 +79,8 @@ After running Ganache we verify deployment by using the following command
 forge create Store --legacy --contracts src/Storage.sol --private-key <ganache private key> --rpc-url http://127.0.0.1:7545
 ```
 
-[](./assets/originalStoreDeployment.png)
+![](./assets/originalStoreDeployment.png?raw=true)
+
 Img2.
 
 ## References
